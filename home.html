@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titanic</title>
+</head>
+<body>
+	<h1><center>Titanic</center></h1>
+
+	<div>
+	  	<form action="/output" method="POST">
+	    
+	    <label for="sex">Sex</label>
+	    <select id="sex" name="sex">
+	      <option value="0">Female</option>
+	      <option value="1">Male</option>
+	    </select>
+	    <br>
+
+	    <label for="age">Age</label>
+	    <input type="text" id="age" name="age">
+	    <br>
+
+	    <label for="Pclass">Pclass</label>
+	    <select id="Pclass" name="Pclass">
+	      <option value="0">1st</option>
+	      <option value="1">2nd</option>
+	      <option value="2">3rd</option>
+	    </select>
+	    <br>
+
+	    <label for="SibSp">SibSp</label>
+	    <select id="SibSp" name="SibSp">
+	      <option value="0">0</option>
+	      <option value="1">1</option>
+	      <option value="2">2</option>
+	      <option value="3">3</option>
+	      <option value="4">4</option>
+	      <option value="5">5</option>
+	      <option value="8">8</option>
+	    </select>
+	    <br>
+
+	    <label for="Parch">Parch</label>
+	    <select id="Parch" name="Parch">
+	      <option value="0">0</option>
+	      <option value="1">1</option>
+	      <option value="2">2</option>
+	      <option value="3">3</option>
+	      <option value="4">4</option>
+	      <option value="5">5</option>
+	      <option value="6">6</option>
+	    </select>
+	    <br>
+
+	    <label for="Fare">Fare</label>
+	    <input type="text" id="Fare" name="Fare">
+	    <br>
+
+	    <label for="Embarked">Embarked</label>
+	    <select id="Embarked" name="Embarked">
+	      <option value="0">Cherbourg</option>
+	      <option value="1">Southampton</option>
+	      <option value="2">Queenstown</option>
+	    </select>
+	    <br>
+
+	    <input type="submit" value="Submit">
+  		</form>
+	</div>
+
+	<p>{{y}}</p>
+</body>
+</html>
